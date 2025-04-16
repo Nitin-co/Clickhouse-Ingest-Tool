@@ -1,0 +1,7 @@
+[
+    {"product_id": "101", "product_name": "Apple iPhone 13", "category": "Electronics", "price": "799"},
+    {"product_id": "102", "product_name": "Nike Air Max", "category": "Shoes", "price": "129"},
+    {"product_id": "103", "product_name": "MacBook Air M2", "category": "Laptops", "price": "1099"},
+    {"product_id": "104", "product_name": "Instant Pot Duo", "category": "Kitchen", "price": "89"}
+  ]
+  

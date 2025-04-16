@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>ClickHouse Ingestion Tool</title></head>
+<body>
+  <h2>Upload File to ClickHouse</h2>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    Table Name: <input type="text" name="table_name" required><br>
+    File: <input type="file" name="file" required><br>
+    <button type="submit">Upload</button>
+  </form>
+
+  <h2>Download Table from ClickHouse</h2>
+  <form action="/download" method="post">
+    Table Name: <input type="text" name="table_name" required><br>
+    Format: 
+    <select name="format">
+      <option value="csv">CSV</option>
+      <option value="json">JSON</option>
+    </select><br>
+    <button type="submit">Download</button>
+  </form>
+</body>
+</html>
