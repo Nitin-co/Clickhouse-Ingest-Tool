@@ -1,5 +1,5 @@
 
-# 🧠 ClickHouse & Flat File Ingestion Tool
+#  ClickHouse & Flat File Ingestion Tool
 
 A lightweight Flask-based web application that supports **bidirectional ingestion** between flat files (`.csv`, `.json`) and a **ClickHouse database**.
 
@@ -7,7 +7,7 @@ This tool is designed to streamline the import/export of structured data for ana
 
 ---
 
-## 🚀 Features
+##  Features
 
 ✅ Upload `.csv` or `.json` files  
 ✅ Automatically create corresponding tables in ClickHouse  
@@ -18,7 +18,7 @@ This tool is designed to streamline the import/export of structured data for ana
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Python 3
 - Flask (Web Framework)
@@ -28,7 +28,7 @@ This tool is designed to streamline the import/export of structured data for ana
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 clickhouse-flask-ingestion/
@@ -42,7 +42,7 @@ clickhouse-flask-ingestion/
 
 ---
 
-## 📥 Installation & Setup
+##  Installation & Setup
 
 1. **Clone this repository**
 
@@ -74,6 +74,6 @@ Visit: [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 📝 License
+##  License
 
 MIT License. Feel free to reuse, modify, and contribute!
